@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*logobar*/
+#logobar {
+    background-color: mediumseagreen;
+    width: 100%;
+    height: 70px;
+}
+
+#logobar .head {
+    float: left;
+    color: #fff;
+    margin-top: 0.6rem;
+    margin-left: 1.5rem;
+
+}
+
+#logobar .logo {
+    float: right;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 0.6rem;
+    margin-right: 1.5rem;
+}
+
+
+body {
+ background-image: url(/fisherman.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+ 
+}
+/*intro*/
+.card{
+    color: #fff;
+    background-color: rgb(99, 99, 99, 0.4);
+    margin-right: 3rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+.card img{
+    width: 380px;
+    max-height: 220px;
+}
+footer .about{
+    width: 100%;
+    height: 120px;
+    color: #fff;
+    background-color: darkseagreen;
+    text-align: center;
+    padding-top: 1rem;
+
+    
+}
+footer .copyright{
+    height: 35px;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
