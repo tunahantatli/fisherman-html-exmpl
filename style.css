@@ -30,13 +30,13 @@
 
 
 body {
- background-image: url(https://www.athwart.org/content/images/2020/07/robson-hatsukami-morgan-qr7tsSwDOg0-unsplash.jpg);
- background-size: 100%;
- background-repeat: no-repeat;
- 
+    background-image: url(https://www.athwart.org/content/images/2020/07/robson-hatsukami-morgan-qr7tsSwDOg0-unsplash.jpg);
+    background-size: cover;
+    
 }
+
 /*intro*/
-.card{
+.card {
     color: #fff;
     background-color: rgb(99, 99, 99, 0.4);
     margin-right: 3rem;
@@ -44,21 +44,25 @@ body {
     margin-left: 3rem;
     margin-bottom: 1rem;
 }
-.card img{
-    width: 380px;
-    max-height: 220px;
+
+.card img {
+    width: 100%;
+    /* max-height: 220px; */
+    height: auto;
 }
-footer .about{
+
+footer .about {
     width: 100%;
     height: 120px;
     color: #fff;
-    background-color: darkseagreen;
+    background-color: rgb(18, 34, 34);
     text-align: center;
     padding-top: 1rem;
 
-    
+
 }
-footer .copyright{
+
+footer .copyright {
     height: 35px;
     width: 100%;
     color: #fff;
@@ -69,3 +73,12 @@ footer .copyright{
     padding-bottom: 10px;
 }
 
+@media (max-width:1331px) {
+    body {
+        background-image: none;
+        background-color: darkseagreen;
+    }
+}
+.btn{
+    opacity: 0.85;
+}
